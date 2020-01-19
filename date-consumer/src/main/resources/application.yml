@@ -1,0 +1,12 @@
+server:
+  port: 8888
+dubbo:
+  service.version: 1.0.0
+  registry.address: zookeeper://47.99.168.175:2181
+  application.name: consumer
+  protocol:
+    name: dubbo
+    port: -1
+  consumer:
+    timeout: 5000
+    retries: 3

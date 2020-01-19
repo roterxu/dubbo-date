@@ -1,0 +1,12 @@
+server:
+  port: 8888
+dubbo:
+  registry:
+    address: zookeeper://47.99.168.175:2181
+  application:
+    name: provider
+  service:
+    version: 1.0.0
+  protocol:
+    name: dubbo
+    port: -1
